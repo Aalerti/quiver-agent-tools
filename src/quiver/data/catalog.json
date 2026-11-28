@@ -1,0 +1,24 @@
+[
+  {"name": "jira_search_issues", "description": "Search Jira issues with a JQL query (by assignee, status, project, dates). Returns a list of issues with key, summary and status."},
+  {"name": "jira_get_issue", "description": "Get full details of one Jira issue by its key, including description and comments."},
+  {"name": "jira_create_issue", "description": "Create a new Jira issue in a project with a summary, description and type."},
+  {"name": "jira_transition_issue", "description": "Change the status of a Jira issue, for example move it to In Progress or Done."},
+
+  {"name": "slack_post_message", "description": "Post a message to a Slack channel."},
+  {"name": "slack_send_dm", "description": "Send a direct message to one Slack user."},
+  {"name": "slack_search_messages", "description": "Search Slack messages by text, channel, author or date."},
+  {"name": "slack_list_channels", "description": "List Slack channels available in the workspace."},
+
+  {"name": "github_create_issue", "description": "Create an issue in a GitHub repository."},
+  {"name": "github_search_issues", "description": "Search GitHub issues and pull requests by text, label, author or state."},
+  {"name": "github_create_pull_request", "description": "Open a pull request from one branch to another in a GitHub repository."},
+  {"name": "github_get_file_contents", "description": "Read the contents of a file from a GitHub repository at a given branch or commit."},
+
+  {"name": "gdrive_search_files", "description": "Search Google Drive files by name or content."},
+  {"name": "gdrive_read_file", "description": "Read the text contents of a Google Drive file by its id."},
+  {"name": "gdrive_create_document", "description": "Create a new Google Docs document with the given title and text."},
+
+  {"name": "postgres_list_tables", "description": "List tables and their columns in the connected PostgreSQL database."},
+  {"name": "postgres_run_query", "description": "Run a read-only SQL query on the connected PostgreSQL database and return the rows."},
+  {"name": "postgres_explain_query", "description": "Show the execution plan of an SQL query to analyze its performance."}
+]
